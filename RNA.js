@@ -47,12 +47,12 @@ class RNA {
     }
 
     compute(list = []) {
-        for (let i = 0; i< this.levelList.length; i++) {
-            const templist = [];
+        for (let i = 0; i < this.levelList.length; i++) {
+            const tempList = [];
 
             for (const neuron of this.levelList[i]) {
                 if (list.length !== neuron.weightList.length) throw new Error("Entrada inválida");
-                templist.push(neuron.g(list));
+                tempList.push(neuron.g(list));
             }
             list = tempList;
         }
