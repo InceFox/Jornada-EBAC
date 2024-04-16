@@ -80,7 +80,7 @@ setInterval(() => {
   };
 }, 100);
 
-/*const s = document.createElement('script');
+/* const s = document.createElement('script');
 s.type = 'module';
 s.src = 'http://localhost:5500/script.js'
 document.body.appendChild(s); */
